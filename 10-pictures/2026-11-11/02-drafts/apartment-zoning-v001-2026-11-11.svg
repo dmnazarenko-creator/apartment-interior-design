@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="800" viewBox="0 0 1280 800">
+<title>Схематичная планировка квартиры v001 — не в масштабе</title>
+<rect width="1280" height="800" fill="#f8f6f2"/>
+<text x="42" y="48" font-family="Arial,sans-serif" font-size="27" font-weight="bold" fill="#242424">Квартира — функциональная схема v001</text>
+<text x="42" y="79" font-family="Arial,sans-serif" font-size="16" fill="#686868">11.11.2026 · Визуальное трассирование исходного плана · НЕ размерный чертёж</text>
+<g transform="translate(-330 -100) scale(1.05)">
+<path d="M555 287H731V367H819V287H1084V287H1492V575H1160V777H975V807H866V777H666V790H476V590H555Z" fill="#eee9e1" stroke="#55514c" stroke-width="16" stroke-linejoin="round"/>
+<path d="M555 287H731V367H819V620H666V590H555Z" fill="#e4d2ba"/>
+<rect x="831" y="289" width="246" height="329" fill="#d7e6dd"/>
+<rect x="1102" y="289" width="389" height="286" fill="#e3dfed"/>
+<path d="M666 620H1159V775H975V804H866V775H666Z" fill="#e7e6e1"/>
+<rect x="489" y="598" width="177" height="177" fill="#dce7ee"/>
+<g fill="none" stroke="#55514c" stroke-width="13">
+<path d="M819 368V620H954 M1017 620H1084V289 M1093 289V620 M1093 620H1160 M1160 575H1492"/>
+<path d="M666 590V671 M666 721V775"/>
+</g>
+<g stroke="#ffffff" stroke-width="3">
+<rect x="558" y="314" width="53" height="240" fill="#a48c70"/>
+<rect x="672" y="430" width="90" height="60" rx="4" fill="#a48c70"/>
+<rect x="850" y="333" width="95" height="156" rx="5" fill="#b2aaa0"/>
+<rect x="995" y="419" width="72" height="90" fill="#a48c70"/>
+<rect x="839" y="531" width="73" height="60" fill="#a48c70"/>
+<rect x="1211" y="355" width="153" height="164" rx="7" fill="#b2aaa0"/>
+<rect x="1418" y="312" width="50" height="214" fill="#a48c70"/>
+<rect x="1030" y="685" width="90" height="50" fill="#a48c70"/>
+</g>
+<g font-family="Arial,sans-serif" font-size="18" fill="#242424" text-anchor="middle" font-weight="bold">
+<text x="684" y="403">КУХНЯ</text><text x="684" y="424" font-size="14">11,9 м²</text>
+<text x="952" y="385">КОМНАТА 18+</text><text x="952" y="408" font-size="14">12,5 м²</text>
+<text x="1280" y="392">СПАЛЬНЯ</text><text x="1280" y="416" font-size="14">18,0 м²</text>
+<text x="897" y="697">ПРИХОЖАЯ</text><text x="897" y="718" font-size="14">10,3 м²</text>
+<text x="577" y="690" font-size="16">САНУЗЕЛ</text><text x="577" y="711" font-size="14">4,6 м²</text>
+</g>
+</g>
+<rect x="42" y="702" width="1196" height="65" rx="9" fill="#fff" stroke="#d8d1c8"/>
+<text x="58" y="729" font-family="Arial,sans-serif" font-size="16" font-weight="bold" fill="#8b3d24">ВНИМАНИЕ:</text>
+<text x="167" y="729" font-family="Arial,sans-serif" font-size="15" fill="#333">Мебель и геометрия условные. Розетки, свет и сантехника не нанесены.</text>
+<text x="58" y="751" font-family="Arial,sans-serif" font-size="14" fill="#686868">Для согласования размеров и расстановки требуется проверка по обмерному плану и инженерным листам.</text>
+</svg>
