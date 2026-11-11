@@ -12,7 +12,15 @@ s.render.engine='BLENDER_EEVEE'
 s.render.resolution_x=1280
 s.render.resolution_y=800
 s.render.resolution_percentage=100
-s.eevee.use_gtao=True
+# Ambient occlusion is exposed differently across Blender versions.
+# Enable GTAO where the current Eevee API supports it; otherwise continue safely.
+eevee = getattr(s, 'eevee', None)
+if eevee is not None and hasattr(eevee, 'use_gtao'):
+    eevee.use_gtao = True
+    if hasattr(eevee, 'gtao_distance'):
+        eevee.gtao_distance = 3.0
+    if hasattr(eevee, 'gtao_factor'):
+        eevee.gtao_factor = 1.25
 
 def material(n,c):
     m=bpy.data.materials.new(n); m.diffuse_color=(*c,1); return m
